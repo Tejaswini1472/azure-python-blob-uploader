@@ -30,7 +30,12 @@ func start
 Now visit http://localhost:7071/api/upload to test the API locally.
 
 📂 Folder Structure
-<pre> ``` azure-python-blob-uploader/ ├── function_app.py # Main HTTP trigger and blob logic ├── requirements.txt # Python dependencies ├── host.json # Azure Functions host config ├── local.settings.json # Local environment variables ├── .vscode/ # VS Code configurations └── .gitignore # Files to ignore in Git ``` </pre>
+<pre> ``` azure-python-blob-uploader/ ├── function_app.py # Main HTTP trigger and blob logic
+                                      ├── requirements.txt # Python dependencies
+                                      ├── host.json # Azure Functions host config
+                                      ├── local.settings.json # Local environment variables
+                                      ├── .vscode/ # VS Code configurations
+                                      └── .gitignore # Files to ignore in Git ``` </pre>
 
 📡 Example Request (HTTP POST)
 POST http://localhost:7071/api/upload
